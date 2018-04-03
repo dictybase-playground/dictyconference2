@@ -4,6 +4,8 @@ import Grid from "material-ui/Grid";
 import Button from "material-ui/Button";
 import AppBar from "material-ui/AppBar";
 import Toolbar from "material-ui/Toolbar";
+import ReactDOM from "react-dom";
+import { Link } from "react-router-dom";
 
 const styles = theme => ({
   container: {
@@ -33,34 +35,34 @@ const NavBar = props =>
       <Toolbar>
         <Grid container spacing={8}>
           <Grid item sm={2} xs={4}>
-            {/* <Link to="/version2/home" className={props.classes.link}> */}
-            <Button className={props.classes.button}>Home</Button>
-            {/* </Link> */}
+            <Link to="/" className={props.classes.link}>
+              <Button className={props.classes.button}>Home</Button>
+            </Link>
           </Grid>
           <Grid item sm={2} xs={4}>
-            {/* <Link to="/version2/venue" className={props.classes.link}> */}
-            <Button className={props.classes.button}>Venue</Button>
-            {/* </Link> */}
+            <Link to="venue" className={props.classes.link}>
+              <Button className={props.classes.button}>Venue</Button>
+            </Link>
           </Grid>
           <Grid item sm={2} xs={4}>
-            {/* <Link to="/version2/travel" className={props.classes.link}> */}
-            <Button className={props.classes.button}>Travel</Button>
-            {/* </Link> */}
+            <Link to="travel" className={props.classes.link}>
+              <Button className={props.classes.button}>Travel</Button>
+            </Link>
           </Grid>
           <Grid item sm={2} xs={4}>
-            {/* <Link to="/version2/registration" className={props.classes.link}> */}
-            <Button className={props.classes.button}>Register</Button>
-            {/* </Link> */}
+            <Link to="register" className={props.classes.link}>
+              <Button className={props.classes.button}>Register</Button>
+            </Link>
           </Grid>
           <Grid item sm={2} xs={4}>
-            {/* <Link to="/version2/abstract" className={props.classes.link}> */}
-            <Button className={props.classes.button}>Abstract</Button>
-            {/* </Link> */}
+            <Link to="abstract" className={props.classes.link}>
+              <Button className={props.classes.button}>Abstract</Button>
+            </Link>
           </Grid>
           <Grid item sm={2} xs={4}>
-            {/* <Link to="/version2/agenda" className={props.classes.link}> */}
-            <Button className={props.classes.button}>Agenda</Button>
-            {/* </Link> */}
+            <Link to="agenda" className={props.classes.link}>
+              <Button className={props.classes.button}>Agenda</Button>
+            </Link>
           </Grid>
         </Grid>
       </Toolbar>

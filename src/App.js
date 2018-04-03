@@ -12,7 +12,7 @@ import { HashRouter, Route } from "react-router-dom";
 class App extends Component {
   render() {
     return (
-      <HashRouter>
+      <HashRouter hashType="noslash">
         <div>
           <NavBar />
           <Route exact path="/" component={Home} />

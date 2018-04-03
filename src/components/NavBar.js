@@ -4,7 +4,6 @@ import Grid from "material-ui/Grid";
 import Button from "material-ui/Button";
 import AppBar from "material-ui/AppBar";
 import Toolbar from "material-ui/Toolbar";
-import ReactDOM from "react-dom";
 import { Link } from "react-router-dom";
 
 const styles = theme => ({

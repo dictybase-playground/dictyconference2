@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { withStyles } from "material-ui/styles";
 import Grid from "material-ui/Grid";
 import Button from "material-ui/Button";

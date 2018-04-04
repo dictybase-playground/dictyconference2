@@ -9,13 +9,18 @@ import Tabs, { Tab } from "material-ui/Tabs";
 import SwipeableViews from "react-swipeable-views";
 import Typography from "material-ui/Typography";
 import { Link } from "react-router-dom";
-
 import Home from "./Home";
 import Venue from "./Venue";
 import Travel from "./Travel";
 import Register from "./Register";
 import Abstract from "./Abstract";
 import Agenda from "./Agenda";
+import HomeIcon from "material-ui-icons/Home";
+import VenueIcon from "material-ui-icons/Place";
+import TravelIcon from "material-ui-icons/AirplanemodeActive";
+import RegisterIcon from "material-ui-icons/Assignment";
+import AbstractIcon from "material-ui-icons/School";
+import AgendaIcon from "material-ui-icons/ViewList";
 
 const styles = theme => ({
   container: {
@@ -59,14 +64,33 @@ class NavBar extends Component {
               onChange={this.handleChange}
               scrollable
               scrollButtons="auto"
-              centered
             >
-              <Tab label="Home" />
-              <Tab label="Venue" />
-              <Tab label="Travel" />
-              <Tab label="Register" />
-              <Tab label="Abstract" />
-              <Tab label="Agenda" />
+              <Tab label="Home" icon={<HomeIcon />} style={{ width: "16%" }} />
+              <Tab
+                label="Venue"
+                icon={<VenueIcon />}
+                style={{ width: "16%" }}
+              />
+              <Tab
+                label="Travel"
+                icon={<TravelIcon />}
+                style={{ width: "16%" }}
+              />
+              <Tab
+                label="Register"
+                icon={<RegisterIcon />}
+                style={{ width: "16%" }}
+              />
+              <Tab
+                label="Abstract"
+                icon={<AbstractIcon />}
+                style={{ width: "16%" }}
+              />
+              <Tab
+                label="Agenda"
+                icon={<AgendaIcon />}
+                style={{ width: "16%" }}
+              />
             </Tabs>
           </AppBar>
 

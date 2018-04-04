@@ -5,6 +5,7 @@
   "homepage": "https://dictybase-playground.github.io/dictyconference2",
   "dependencies": {
     "material-ui": "^1.0.0-beta.40",
+    "material-ui-icons": "^1.0.0-beta.36",
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
     "react-responsive-carousel": "^3.1.35",

@@ -4,6 +4,7 @@ import SlideShowImage1 from "../images/slideshow-1.jpg";
 import SlideShowImage2 from "../images/slideshow-2.jpg";
 import SlideShowImage3 from "../images/slideshow-3.jpg";
 import SlideShowImage4 from "../images/slideshow-4.jpg";
+import SlideShowImage5 from "../images/slideshow-5.jpg";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const SlideShow = () =>
@@ -32,6 +33,9 @@ const SlideShow = () =>
     </div>
     <div>
       <img src={SlideShowImage4} alt="Egmond aan Zee offshore wind farm" />
+    </div>
+    <div>
+      <img src={SlideShowImage5} alt="Sunset on the beach of Egmond aan Zee" />
     </div>
   </Carousel>;
 

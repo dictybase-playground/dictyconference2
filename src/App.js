@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import SlideShow from "./components/SlideShow";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import Venue from "./components/Venue";
@@ -14,6 +15,7 @@ class App extends Component {
     return (
       <HashRouter hashType="noslash">
         <div>
+          <SlideShow />
           <NavBar />
           <Route exact path="/" component={Home} />
           <Route path="/venue" component={Venue} />

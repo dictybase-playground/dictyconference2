@@ -3,9 +3,9 @@ import "typeface-roboto";
 export const textStyles = theme => ({
   container: {
     fontFamily: "roboto",
-    paddingBottom: "7%",
-    paddingLeft: "6%",
-    paddingRight: "6%"
+    paddingTop: "2rem",
+    paddingLeft: "2rem",
+    paddingRight: "2rem"
   },
   header: {
     position: "relative"

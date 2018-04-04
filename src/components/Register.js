@@ -9,11 +9,6 @@ const Register = props =>
       <span className={props.classes.title}>Registration</span>
     </center>
 
-    {/* <img
-      src={HotelImage}
-      alt="Hotel Zuiderduin"
-      className={props.classes.image}
-    /> */}
     <div className={props.classes.info}>
       <br />
       <center>
@@ -44,46 +39,62 @@ const Register = props =>
       </ul>
       <br />
       <center>
-        <b>Fees (Provisional Data)</b>
+        <b>Fees (Provisional Data)*</b>
       </center>
       <br />
       <table className={props.classes.table} width="100%">
         <tbody>
           <tr>
-            <th />
-            <th>Early Bird (ends April 30)</th>
-            <th>Regular Rate (from May 1 to July 17)</th>
+            <td />
+            <td className={props.classes.tableheader}>
+              Early Bird
+              <div className={props.classes.tablesubtitle}>Ends April 30</div>
+            </td>
+            <td className={props.classes.tableheader}>
+              Regular Rate
+              <div className={props.classes.tablesubtitle}>
+                From May 1 to July 17
+              </div>
+            </td>
           </tr>
           <tr>
-            <td>Regular Attendees</td>
+            <td className={props.classes.tableheader}>Regular Attendees</td>
           </tr>
           <tr>
-            <td>Conference fee + accomodation single room</td>
-            <td>750 €</td>
-            <td>750 €</td>
+            <td className={props.classes.tabletd}>
+              Conference fee + accomodation single room
+            </td>
+            <td className={props.classes.tabletd}>750 €</td>
+            <td className={props.classes.tabletd}>750 €</td>
           </tr>
           <tr>
-            <td>Conference fee + accomodation double room</td>
-            <td>650 €</td>
-            <td>650 €</td>
+            <td className={props.classes.tabletd}>
+              Conference fee + accomodation double room
+            </td>
+            <td className={props.classes.tabletd}>650 €</td>
+            <td className={props.classes.tabletd}>650 €</td>
           </tr>
           <tr>
-            <td>Students</td>
+            <td className={props.classes.tableheader}>Students</td>
           </tr>
           <tr>
-            <td>Conference fee + accomodation single room</td>
-            <td>650 €</td>
-            <td>650 €</td>
+            <td className={props.classes.tabletd}>
+              Conference fee + accomodation single room
+            </td>
+            <td className={props.classes.tabletd}>650 €</td>
+            <td className={props.classes.tabletd}>650 €</td>
           </tr>
           <tr>
-            <td>Conference fee + accomodation single room</td>
-            <td>550 €</td>
-            <td>550 €</td>
+            <td className={props.classes.tabletd}>
+              Conference fee + accomodation single room
+            </td>
+            <td className={props.classes.tabletd}>550 €</td>
+            <td className={props.classes.tabletd}>550 €</td>
           </tr>
         </tbody>
       </table>
       <br />
-      Additional nights can be booked on registration.
+      *Additional nights can be booked on registration.
     </div>
   </div>;
 export default withStyles(styles)(Register);

@@ -38,5 +38,28 @@ export const textStyles = theme => ({
   image: {
     paddingTop: "1%",
     width: "100%"
+  },
+  table: {
+    borderCollapse: "collapse",
+    margin: "0 auto"
+  },
+  tabletd: {
+    padding: "1rem",
+    border: "1px solid black",
+    textAlign: "center",
+    borderLeft: "0",
+    borderRight: "0",
+    borderTop: "0"
+  },
+  tableheader: {
+    padding: "1rem",
+    border: "1px solid white",
+    backgroundColor: "#0b3861",
+    color: "white",
+    textAlign: "center"
+  },
+  tablesubtitle: {
+    fontSize: "0.7rem",
+    paddingTop: "0.4rem"
   }
 });

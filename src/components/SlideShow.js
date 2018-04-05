@@ -23,13 +23,13 @@ const SlideShow = () =>
       />
     </div>
     <div>
+      <img src={SlideShowImage2} alt="Hotel Zuiderduin" />
+    </div>
+    <div>
       <img
         src={SlideShowImage3}
         alt="Horse riding on the beach of Egmond aan Zee"
       />
-    </div>
-    <div>
-      <img src={SlideShowImage2} alt="Hotel Zuiderduin" />
     </div>
     <div>
       <img src={SlideShowImage4} alt="Egmond aan Zee offshore wind farm" />

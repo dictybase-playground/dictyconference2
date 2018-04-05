@@ -18,7 +18,7 @@ const Travel = props =>
         By Public Transportation (about 1:20 hours, €12). Follow the link and
         fill in the date and time of travel:
         <p>
-          <a>
+          <a href="https://9292.nl/en/journeyadvice/station-schiphol-airport/egmond-aan-zee_1931vl/departure">
             https://9292.nl/en/journeyadvice/station-schiphol-airport/egmond-aan-zee_1931vl/departure
           </a>
         </p>
